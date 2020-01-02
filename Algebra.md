@@ -47,7 +47,7 @@ These are just shorthand.
 
 ### Set-Builder Notation
 
-The most commen way of specifying sets is through _[set-builder notation](https://en.wikipedia.org/wiki/Set-builder_notation)_.
+The most common way of specifying sets is through _[set-builder notation](https://en.wikipedia.org/wiki/Set-builder_notation)_.
 
 For example, if `H` is the set of all living people in the United States, we could define the following subset of `H`:
 
