@@ -1,18 +1,8 @@
-# Variables
+# Variables in JavaScript
 
-Rather than always referring to data by its literal value (e.g., the number `5` or the string `'waffles'`), we can assign data to named variables and then refer to the data by name. These are not quite like the variables from algebra, which are used to represent "any particular number," but rather represent a named-but-not-yet-specified value.
+You probably remember the word "variable" from math class. While there are similarities, don't assume that because "variable" is a word in both math-ese and code-ese they mean the same thing. Your intuition around variables from math class *will* mislead you at first.
 
-You can think of a variable like a bag with a label. Instead of saying "the number 4" we might say "the number in the bag labeled 'age'", where 'age' is the variable. Here's some code that makes use of variables. Can you follow it? Can everyone else on your team follow it?
-
-Or think of a variable like a sticky note with a label.
-
-Look at the code below:
-
-## The Assignment Operator
-
-In most programming languages, the symbol `=` is called the **assignment operator** and is used to assign a value to a variable. Be careful, though! You probably think of `=` as "equality", but when programming it means something else.
-
-Here's some code that makes use of the assignment operator (`=`). Can you make sense of it?
+Here is some code that makes use of variables. What do you think is happening? What symbols and words are familiar to you? Unfamiliar? Is there anything surprising?
 
 ```javascript
 // Declare a variable named firstNum and assign a value 10 to it
@@ -29,6 +19,10 @@ let total = firstNum + secondNum;
 console.log(total);
 ```
 
+## The Assignment Operator
+
+In most programming languages, the symbol `=` is called the **assignment operator** and is used to assign a value to a variable. Be careful, though! You probably think of `=` as "equality", but when programming it means something else.
+
 In JavaScript, `let` tells the interpreter that we're declaring a new variable.
 
 So, when we write
@@ -38,6 +32,8 @@ let currentYear = 2020;
 ```
 
 we're not asking "Is `currentYear` equal to `2020`?" Rather, we're telling Javascript: "Here's a new variable named `currentYear` and we're assigning it a value of `2020`."
+
+It bears repeating: when programming, `=` does **not** represent an equation. It is a *command* to the interpreter to store data in a variable.
 
 ## Assignment Happens Right-to-Left
 
@@ -204,3 +200,8 @@ timeSinceStartup
 ```
 
 This style of naming is called [camel case](https://en.wikipedia.org/wiki/Camel_case).
+
+## Contents
+
+- [Variables in JavaScript](./Variables.md)
+- [Template Strings](./Template-Strings.md)

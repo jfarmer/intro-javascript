@@ -39,3 +39,8 @@ Inside a template string, anything enclosed by `${...}` will be evaluated and su
 ## Documentation
 
 Read about [template strings on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals).
+
+## Contents
+
+- [Variables in JavaScript](./Variables.md)
+- [Template Strings](./Template-Strings.md)
