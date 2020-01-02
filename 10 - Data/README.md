@@ -6,4 +6,12 @@ What makes these sequences useful is our ability to *interpret* them according t
 
 For example, we might say "Given an 8-bit binary sequence, we can use the [binary numbering system][wiki-binary-number] to interpret it as a non-negative integer between 0 and 255." Some languages support this data type explicitly and would call it an "8-bit unsigned integer".
 
+JavaScript has 8 core data types: `number`, `string`, `boolean`, `null`, `undefined`, `bigint`, `symbol`, and `object`. We'll explain more about each of these types later, but for now we'll cover the most common.
+
+## Contents
+
+- [Numbers](./Numbers.md)
+- [Strings](./Strings.md)
+- [Booleans](./Booleans)
+
 [wiki-binary-number]: https://en.wikipedia.org/wiki/Binary_number
