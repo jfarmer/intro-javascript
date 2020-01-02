@@ -2,11 +2,6 @@
 
 Functions are named, reusable bits of code. In the same way that we can use variables to refer to data by name rather than by value, we can use functions to refer to code by name rather than copying-and-pasting the same lines of code throughout our program.
 
-## Contents
-
-- [Defining and Calling Functions](./Defining.md)
-- [Returning](./Returning.md)
-
 For example, imagine we had a service that printed out a greeting every time a user signed in. The message was the same except for a few user-specific details.
 
 We could do this:
@@ -45,3 +40,9 @@ Think about the advantages here:
 1. The code is easier to understand, both because it's shorter and because the function name hints at the purpose of the `'Hello, ...'` string.
 1. The welcome message is only defined in one place, which means there's only one place we have to edit if we ever want to change it.
 1. We can verify that `getWelcomeMessage` does exactly what we expect without
+
+## Contents
+
+- [Playing With Functions](./Playing.md)
+- [Defining and Calling Functions](./Defining.md)
+- [Returning](./Returning.md)
