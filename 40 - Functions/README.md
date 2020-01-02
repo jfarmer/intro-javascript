@@ -23,7 +23,13 @@ signupDate = 'June 4, 2019';
 console.log(`Hello, ${username}! You've been a member since ${signupDate}.`);
 ```
 
-With functions, we could do this:
+Each section of code involves three things:
+
+1. Assigning values to two variables (`username` and `signupDate`)
+1. Creating a welcome message using a template string, substituting in the values of `username` and `signupDate` into their respective places
+1. Printing out the welcome message using `console.log`
+
+There is a lot of repetition. In particular, we repeat the contents of our welcome message multiple times. We can define a function that creates our welcome message for us. The above code would then become:
 
 ```javascript
 function getWelcomeMessage(username, signupDate) {

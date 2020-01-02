@@ -1,20 +1,27 @@
 # Defining Functions
 
+There are four parts to defining a function:
+
+1. Signaling to the JavaScript interpreter that we're about to define a function
+1. Giving the function a name
+1. Listing the inputs (called **parameters**) that the function will use
+1. Writing the body of the function, i.e., the code that the JavaScript interpreter will run when we call the function
+
 In JavaScript, the general syntax for defining a function is:
 
 ```javascript
 function nameOfTheFunction(firstArg, secondArg, thirdArg) {
-  // Code
-  // Code
+  // First line of function body
+  // More code more code
   // ...
 
   return someValue;
 }
 ```
 
-The `function` keyword tells the JavaScript interpreter that we're about to define a function. Next, we give the function a name. We put the  `(...)` is a list of parameters that will be given values when the function is called elsewhere.
+The `function` keyword tells the JavaScript interpreter that we're about to define a function. Next, we give the function a name (here `nameOfTheFunction`). The list of expected inputs goes between the parentheses `(...)`, separated by commas.
 
-Between the `{ ... }` is the body of the function. Finally, the `return` keyword sends the desired value back to the place where the function was called.
+The function body goes between the curly bracers `{ ... }`. Inside the body, the `return` keyword tells the JavaScript interpreter to leave the function and return with `someValue`.
 
 Consider the following function:
 
