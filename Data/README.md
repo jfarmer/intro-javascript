@@ -14,6 +14,6 @@ JavaScript has 8 core data types: `number`, `string`, `boolean`, `null`, `undefi
 
 - [Numbers](./Numbers.md)
 - [Strings](./Strings.md)
-- [Booleans](./Booleans)
+- [Booleans](./Booleans.md)
 
 [wiki-binary-number]: https://en.wikipedia.org/wiki/Binary_number
