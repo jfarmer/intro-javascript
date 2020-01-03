@@ -63,7 +63,7 @@ let nextDecade = currentYear + 10;
 
 Here, `currentYear + 10` is evaluated first, resulting in a value of `2030`. The value `2030` is then assigned to the variable named `nextDecade`.
 
-Some languages use something other than `=` to denote assignment such as `:=` or `<-`. These are  That said, most languages do use `=` and you'll have to get used to the fact that `=` means something different when programming.
+Some languages use something other than `=` to denote assignment such as `:=` or `<-`. Most languages use `=`, however, and you'll get used to the fact that it means something different when programming.
 
 ### The `let` Keyword
 
