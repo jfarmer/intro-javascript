@@ -98,7 +98,6 @@ If they knew how to multiply they could calculate `12 × 150` in seconds. But wh
 
 Most computers can multiply directly, but the idea is the same. We build up more complex procedures out of simpler procedures and rely on the fact that computers can perform billions of operations per second.
 
-
 [dir-data]: ./Data
 [dir-variables]: ./Variables
 [dir-conditionals]: ./Conditionals
