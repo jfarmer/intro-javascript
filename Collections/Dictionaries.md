@@ -95,11 +95,12 @@ If we wrote `daysInMonth.monthName`, the JavaScript interpreter would try to fin
 In JavaScript, the keys of a dictionary are always strings, but values can be anything. Consider:
 
 ```javascript
-let customerData = {
-  A1234: { ID: 'A1234', firstName: 'Frank', lastName: 'Smith', age: 32 },
-  B7631: { ID: 'B7631', firstName: 'April', lastName: 'Garcia', age: 39 },
-  C9834: { ID: 'C9834', firstName: 'Erik', lastName: 'Hansen', age: 28 }
-}
+// Set customerData to an empty dictionary
+let customerData = {};
+
+customerData['A1234'] = { ID: 'A1234', firstName: 'Frank', lastName: 'Smith', age: 32 };
+customerData['B7631'] = { ID: 'B7631', firstName: 'April', lastName: 'Garcia', age: 39 };
+customerData['C9834'] = { ID: 'C9834', firstName: 'Erik', lastName: 'Hansen', age: 28 };
 ```
 
 This is a dictionary whose values are themselves dictionaries! In fact, this is a mini-database: if we have the customer ID we can access that customer's data.
@@ -109,7 +110,7 @@ let customerID = 'B7631';
 let customer = customerData[customerID];
 
 if (customer !== undefined) {
-  console.log(`Customer found: ${customer.firstName} ${customer.lastName}`);
+  console.log(`Customer ${customer.ID} found: ${customer.firstName} ${customer.lastName}`);
 } else {
   console.log(`No customer found for customerID: ${customerID}.`);
 }
@@ -118,3 +119,8 @@ if (customer !== undefined) {
 Imagine you're writing code to summarize a big spreadsheet of customers. There's one customer per row and each is uniquely identified by a value in a column called "Customer ID".
 
 If we know we're going to be accessing the data by customer ID very frequently, a dictionary with the customer IDs as keys and the customer data as values is the natural way to go.
+
+## Contents
+
+- [Arrays in JavaScript](./Arrays.md)
+- [Dictionaries in JavaScript](./Dictionaries.md)

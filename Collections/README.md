@@ -13,7 +13,9 @@ The two most common types of collections are
 1. Arrays (or lists)
 1. Dictionary (or associative array)
 
-Most modern languages have built-in support for these types of collections and JavaScript is no exception. We'll discuss how these collections are below:
+Most modern languages have built-in support for these types of collections and JavaScript is no exception. We'll discuss how these collections are below.
+
+## Contents
 
 - [Arrays in JavaScript](./Arrays.md)
 - [Dictionaries in JavaScript](./Dictionaries.md)

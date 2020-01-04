@@ -90,7 +90,7 @@ let someDummyValue = 'arglebargle'
 
 ## Reading From Arrays
 
-Let's take a look at the array of months from above. Paste the following into the Node repl:
+Let's take a look at the array of months from above. Paste the following into the Node REPL:
 
 ```javascript
 let months = ["January", "February", "March",
@@ -142,3 +142,8 @@ Using the same `months` array from above, the following statements are all true:
 - The string `'December'` is at index `11`
 - The array months has `12` elements
 - The value at index `3` is the string `'April'`, which is the fourth element
+
+## Contents
+
+- [Arrays in JavaScript](./Arrays.md)
+- [Dictionaries in JavaScript](./Dictionaries.md)
