@@ -49,3 +49,10 @@ When we call `doubleWithReturn(15)` the following happens:
 With `doubleWithReturn`, we could store its return value in a variable and then print that out. This is more flexible and less prone to surprising behavior. For example, it's very unlikely you'd write a function like `double` and only *ever* want to print out the value. By returning, you can still print it if you like, but you can also pass use the return value in future work.
 
 You'll get used to this as you define and call more and more functions.
+
+## Contents
+
+- [Playing With Functions](./Playing.md)
+- [Defining and Calling Functions](./Defining.md)
+- [Returning](./Returning.md)
+- [Examples](./Example-Functions.md)

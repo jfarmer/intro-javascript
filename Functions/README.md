@@ -52,3 +52,4 @@ Think about the advantages here:
 - [Playing With Functions](./Playing.md)
 - [Defining and Calling Functions](./Defining.md)
 - [Returning](./Returning.md)
+- [Examples](./Example-Functions.md)

@@ -45,3 +45,4 @@ multiply(3, add(6, 9));
 - [Playing With Functions](./Playing.md)
 - [Defining and Calling Functions](./Defining.md)
 - [Returning](./Returning.md)
+- [Examples](./Example-Functions.md)

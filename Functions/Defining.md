@@ -70,3 +70,10 @@ function waffles(zoo, skating) {
 This function does exactly the same thing as `max`. We'd have to call it like `waffles(20, 100)`, but functionally the computer would perform the exact same work.
 
 We want to use names like `max` to help ourselves and anyone else reading our code. So, please, use descriptive names and think carefully about the way your names might impact other people's understanding of your code — that includes your future self!
+
+## Contents
+
+- [Playing With Functions](./Playing.md)
+- [Defining and Calling Functions](./Defining.md)
+- [Returning](./Returning.md)
+- [Examples](./Example-Functions.md)
