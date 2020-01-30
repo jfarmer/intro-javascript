@@ -19,7 +19,7 @@ console.log('Done counting!');
 The `while` keyword is what tells the JavaScript interpreter we're about to start a while loop. With commentary:
 
 ```javascript
-// Declare a new variable named currentCount and set its value to 10
+// Declare a new variable named currentCount and set its value to 1
 let currentCount = 1;
 
 // Repeat everything between { ... } so long as currentCount is <= 10
