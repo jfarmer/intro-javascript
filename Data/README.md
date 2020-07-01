@@ -13,6 +13,8 @@ That's pretty abstract — what do we mean? Let's think of an example that doesn
 
 That could represent _anything_. Maybe we're reading a movie script and it's meant to represent a character's stunned silence. Maybe it's being used to separate two parts of a larger document and represents the place where one section ends and another begins. Maybe it represents the number 5.
 
+In other words, if I just points to a piece of paper with `.....` written on it and asked you "What does that mean?" you might venture some guesses, but without additional information you would never be able to say for sure.
+
 `.....` by itself has no _inherent_ meaning. We need a rule for how to make sense of it. There might be many different rules we use depending on the context.
 
 ## Data Types on Computers
