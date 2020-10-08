@@ -86,10 +86,15 @@ $
 
 ## Reading From A File
 
+Create a file called `motd.txt` (MOTD for "message of the day") and type some text into it. It can be anything.
+
+Save the following code to a `.js` file **in the same directory** as `motd.txt` and run it. Change the contents of `motd.txt` and run the code again.
+
 ```javascript
 // The fs module allows us to interact with the file system
 let fs = require('fs');
 
+// This assumes motd.txt exists in the same directory as this program
 let messageOfTheDay = fs.readFileSync('motd.txt', 'utf-8');
 
 console.log('The message of the day is:');
